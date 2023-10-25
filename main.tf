@@ -36,6 +36,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly-EK
 resource "aws_eks_cluster" "eks-cluster-test" {
  name = "cluster-test"
  role_arn = aws_iam_role.eks-iam-role.arn
+ version = var.eks_cluster_version
 
  vpc_config {
   subnet_ids = [var.subnet_id_1, var.subnet_id_2]

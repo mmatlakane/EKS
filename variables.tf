@@ -9,3 +9,9 @@
   default = "subnet-078212753c510beb9"
   type = string
  }
+
+ variable "eks_cluster_version" {
+   description = ""
+   default = "1.23"
+   type = string
+ }
