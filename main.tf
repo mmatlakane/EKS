@@ -1,10 +1,3 @@
-terraform {
- required_providers {
-  aws = {
-   source = "hashicorp/aws"
-  }
- }
-}
 #Set up the first resource for the IAM role. This ensures that the role has access to EKS.
 resource "aws_iam_role" "eks-iam-role" {
  name = "cluster-eks-iam-role"
