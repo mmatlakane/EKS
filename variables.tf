@@ -16,5 +16,10 @@
    type = string
  }
 
- variable "access_key_id" {}
- variable "secret_key_id" {}
+ variable "access_key_id" {
+  export AWS_ACCESS_KEY_ID
+ }
+ variable "secret_key_id" {
+  export AWS_SECRET_ACCESS_KEY
+
+ }
