@@ -9,6 +9,6 @@ terraform {
 provider "aws" {
   region  = "us-east-1"
   #profile = "default"
-  export AWS_ACCESS_KEY_ID="anaccesskey"
-  export AWS_SECRET_ACCESS_KEY="asecretkey"
+  export AWS_ACCESS_KEY_ID
+  export AWS_SECRET_ACCESS_KEY
 }
