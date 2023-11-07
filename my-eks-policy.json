@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:GetObject*",
+            "Resource": "arn:aws:s3:::mbali-python-test"
+        }
+    ]
+}
+eksctl create iamserviceaccount --name mbali-eks-service-account --namespace default --cluster mb-eks-cluster --role-name mbali-eks-service-role \
+    --attach-policy-arn arn:aws:iam::466021236912:policy/my-eks-policy --approve

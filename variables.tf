@@ -1,12 +1,12 @@
  variable "subnet_id_1" {
     description = ""
-    default = "subnet-0f173c9ed64b9ee6e"
+    default = "subnet-08a0bf1ea72cc9dc4"
     type = string
  }
  
  variable "subnet_id_2" {
   description = ""
-  default = "subnet-078212753c510beb9"
+  default = "subnet-01c495b1f266ec00b"
   type = string
  }
 
