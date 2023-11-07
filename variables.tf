@@ -15,3 +15,6 @@
    default = "1.23"
    type = string
  }
+
+ variable "access_key_id" {}
+ variable "secret_key_id" {}
