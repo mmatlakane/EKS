@@ -6,8 +6,8 @@ terraform {
     }
   }
 }
-export AWS_ACCESS_KEY_ID="ASIAWZAIHYCYPSXUJJEV"
-export AWS_SECRET_ACCESS_KEY="mQ8vK6uqNPEUTGw3LfSzmXYS32bkHELcUjAgRVE1"
+import AWS_ACCESS_KEY_ID="ASIAWZAIHYCYPSXUJJEV"
+import AWS_SECRET_ACCESS_KEY="mQ8vK6uqNPEUTGw3LfSzmXYS32bkHELcUjAgRVE1"
 provider "aws" {
   region = "us-east-1"
   #profile = "default"
