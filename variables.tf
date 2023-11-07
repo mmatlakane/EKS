@@ -17,9 +17,9 @@
  }
 
  variable "access_key_id" {
-  export AWS_ACCESS_KEY_ID
+  #export AWS_ACCESS_KEY_ID
  }
  variable "secret_key_id" {
-  export AWS_SECRET_ACCESS_KEY
+  #export AWS_SECRET_ACCESS_KEY
 
  }
